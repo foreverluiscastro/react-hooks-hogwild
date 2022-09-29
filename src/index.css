@@ -120,8 +120,8 @@ ul {
 
 .maxPigTile {
   background-size: cover;
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
 }
 
 .pigTile:hover {
@@ -149,4 +149,8 @@ ul {
   to {
     transform: rotate(360deg);
   }
+}
+
+.pigTile img {
+  width: 65%;
 }
